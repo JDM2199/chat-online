@@ -1,0 +1,113 @@
+#chat-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#chat-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#welcome-message {
+  font-size: 18px;
+  color: #4CAF50;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#messages {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#group-message-input {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+#send-group-message {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#send-group-message:hover {
+  background-color: #45a049;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:focus {
+  outline: none;
+}
+
+#messages div {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  word-wrap: break-word;
+}
+
+#messages div[style*="text-align: right"] {
+  background-color: #d3ffd3;
+  color: #333;
+  text-align: right;
+}
+
+#messages div[style*="text-align: left"] {
+  background-color: #f1f1f1;
+  color: #333;
+  text-align: left;
+}
+
+#typing-indicator {
+  font-style: italic;
+  color: #888;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#messages div {
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  word-wrap: break-word;
+}
+
+#messages div:nth-child(odd) {
+  background-color: #e1f5fe;
+}
+
+#messages div:nth-child(even) {
+  background-color: #f1f8e9;
+}
+

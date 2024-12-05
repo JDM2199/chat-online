@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Individual</title>
+  <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+  <div id="chat-container">
+    <h1>Chat Individual</h1>
+    <p id="welcome-message"></p> <!-- Aquí mostramos el mensaje de bienvenida -->
+
+    <div id="users-container">
+      <h3>Usuarios Conectados</h3>
+      <ul id="users"></ul>
+    </div>
+
+    <div id="chat-window">
+      <div id="messages"></div>
+      <input type="text" id="message-input" placeholder="Escribe un mensaje...">
+      <button id="send-button">Enviar</button>
+    </div>
+
+    <!-- Redirección al chat grupal -->
+    <div>
+      <a href="chat_grupal.html" id="group-chat-link">Ir al Chat Grupal</a>
+    </div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="chat.js"></script>
+</body>
+</html>
